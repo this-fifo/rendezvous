@@ -1,0 +1,7 @@
+{
+  "env": {
+    "SENDGRID_API_KEY": "@sendgrid_api_key",
+    "RENDEZVOUS_APP_SECRET": "@rendezvous_app_secret",
+    "RENDEZVOUS_HCAPTCHA_SECRET": "@rendezvous_hcaptcha_secret"
+  }
+}

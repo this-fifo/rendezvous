@@ -1,0 +1,60 @@
+/* Taken from -> https://www.freecodecamp.org/news/how-to-create-email-chips-in-pure-react-ad1cc3ecea16/ */
+.wrapper {
+  background-color: white;
+  width: 400px;
+  padding: 2rem;
+  box-shadow: 0 1.5rem 1rem -1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.3rem;
+}
+
+.input {
+  width: 100%;
+  height: 45px;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  box-sizing: border-box;
+  font: inherit;
+  border-radius: 0.2rem;
+  -webkit-appearance: none;
+}
+
+.input:focus {
+  border-color: cornflowerblue;
+  outline: none;
+}
+
+.input.has-error {
+  border-color: tomato;
+}
+
+.error {
+  margin: 0;
+  font-size: 90%;
+  color: tomato;
+}
+
+.tag-item {
+  color: cornflowerblue;
+  display: inline-block;
+  font-size: 14px;
+  height: 30px;
+  padding: 0 4px 0 1rem;
+  display: inline-flex;
+}
+
+.tag-item > .button {
+  align-self: flex-end;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  margin-left: 10px;
+  font-weight: bold;
+  padding: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
